@@ -13,3 +13,6 @@ I am a Django user trying to learn frontend development. This is my step by step
 6. Run the app by using `npm start` in terminal. 
 7. Go to (http://localhost:3000/) in your browser. You should be able to see the ReactJS logo!
 
+# Folders
+There should be a `public` folder with in `public/index.html` file inside. Similarly, there should be a `src/index.js` file also. These files should not be renamed.
+
