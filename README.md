@@ -16,3 +16,11 @@ I am a Django user trying to learn frontend development. This is my step by step
 # Folders
 There should be a `public` folder with in `public/index.html` file inside. Similarly, there should be a `src/index.js` file also. These files should not be renamed.
 
+# Basic Structure
+* `public/index.html` is displayed when the app is requested
+* There should be an addressable `div` inside it, lets say `<div id = "root"></div>
+* `src/index.js` populates the root div with whatever is to be displayed
+* components used to populate the html can be written in the `src/index.js` itself or other `.js` files like `App` or `Table` in my example
+
+# Props
+Props are used to send data in reverse direction, i.e Passing info from `App.js` to sub components (`Table`). Props are read only in the components 
