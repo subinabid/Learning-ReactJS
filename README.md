@@ -18,7 +18,7 @@ There should be a `public` folder with in `public/index.html` file inside. Simil
 
 # Basic Structure
 * `public/index.html` is displayed when the app is requested
-* There should be an addressable `div` inside it, lets say `<div id = "root"></div>
+* There should be an addressable `div` inside it, lets say `<div id = "root"></div>`
 * `src/index.js` populates the root div with whatever is to be displayed
 * components used to populate the html can be written in the `src/index.js` itself or other `.js` files like `App` or `Table` in my example
 
